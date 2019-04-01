@@ -1,0 +1,12 @@
+[submodule "mf"]
+	path = mf
+	url = http://www.github.com/floriansteinberg/mf
+[submodule "rlzrs"]
+	path = rlzrs
+	url = http://www.github.com/floriansteinberg/rlzrs
+[submodule "metric"]
+	path = metric
+	url = http://www.github.com/floriansteinberg/metric
+[submodule "incone"]
+	path = incone
+	url = http://www.github.com/floriansteinberg/incone
