@@ -24,3 +24,11 @@ From incone Require Import all_cs classical_func classical_cont classical_mach D
 This should allow to inspect the definitions via `Print def_name`, lemmas, theorems etc. via `Check lem_name` and notations via `Locate "not_name"`. 
 In the case where the name of a lemma is not unique, `Locate "lem_name"` lists all lemmas with that name and unique identifiers and `Print Assumptions lem_name` shows the axioms that the result assumes. 
 To list all results involving a concept Coq’s search function can be used via `Search _ (concept)` and `Search "phrase"` might be useful where phrase is an expected substring of a lemma’s name.
+
+### Theorem 1
+In the library this is the lemma `cont_comp`
+```
+Lemma cont_comp (X Y Z: cs) (f: Y -> Z) (g: X -> Y):
+    f \is_continuous -> g \is_continuous -> (f \o_f g) \is_continuous.
+```
+The lemma can be found in the file `continuity_spaces/cs.v` in the incone library.
