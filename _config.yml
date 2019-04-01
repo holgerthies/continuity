@@ -1,5 +1,5 @@
 theme: jekyll-theme-tactile
 title: Quantitative continuity and computable analysis in Coq
-description: Overview of formal proofs
+description: Formal proofs
 github:
   is_project_page: false
