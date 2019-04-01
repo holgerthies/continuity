@@ -1,18 +1,18 @@
 This webpage contains some information on how to check the contents of the formal proofs of statements in our paper.
 
-### Installation instructions
+## Installation instructions
 The following libraries have to be installed in this order:
 - [mf](http://www.github.com/floriansteinberg/mf) 
 - [rlzrs](http://www.github.com/floriansteinberg/rlzrs)
 - [metric](http://www.github.com/floriansteinberg/metric)
 - [incone](http://www.github.com/floriansteinberg/incone)
 
-You can either download them from github or download a zip file containing all necessary files from this page.
+You can either download them from github or download a zip file containing all necessary files here.
 
 To install each library go into the respective folder and run 
 `coq_makefile -f _CoqProject -o Makefile && make && make install`
 
-### Checking the claims of the paper
+## Checking the claims of the paper
 All of the claims about parts of the incone library can be checked by installing the library, opening a new 
 Coq-file with the following includes in the preamble.
 ```
