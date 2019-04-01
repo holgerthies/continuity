@@ -14,7 +14,7 @@ To install each library simply go into the respective folder and run
 `make && make install`.
 
 Alternatively if you are using [opam](https://coq.inria.fr/opam-using.html) to build Coq
-you need to clone this github repository (don't forget the --recurse-submodules as it contains submodules) and then do a
+you need to clone [this](https://github.com/holgerthies/continuity) github repository (don't forget the --recurse-submodules as it contains submodules) and then do a
 
 `opam install . --working-dir`
 
