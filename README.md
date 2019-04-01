@@ -12,8 +12,8 @@ The following libraries have to be installed in this order:
 
 You can either download them from github (release version 1.0) or download a zip file containing all necessary files here.
 
-To install each library go into the respective folder and run 
-`coq_makefile -f _CoqProject -o Makefile && make && make install`
+To install each library simply go into the respective folder and run 
+`make && make install`
 
 ## Checking the claims of the paper
 All of the claims about parts of the incone library can be checked by installing the library, opening a new 
