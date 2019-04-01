@@ -1,4 +1,3 @@
-## Introduction
 This webpage contains some information on how to check the contents of the formal proofs of statements in our paper.
 
 ### Installation instructions
