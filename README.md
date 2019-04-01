@@ -24,7 +24,8 @@ From rlzrs Require Import all_rlzrs.
 From metric Require Import all_metric Qmetric.
 From incone Require Import all_cs classical_func classical_cont classical_mach Duop Q_reals baire_metric.
 ```
-This should allow to inspect the definitions via `Print def_name`, lemmas, theorems etc. via `Check lem_name` and notations via `Locate "not_name"`. 
+The paper contains references to the names of all definitions, lemmas, and so on. 
+This allows to inspect the definitions via `Print def_name`, lemmas, theorems etc. via `Check lem_name` and notations via `Locate "not_name"`. 
 In the case where the name of a lemma is not unique, `Locate "lem_name"` lists all lemmas with that name and unique identifiers and `Print Assumptions lem_name` shows the axioms that the result assumes. 
 To list all results involving a concept Coq’s search function can be used via `Search _ (concept)` and `Search "phrase"` might be useful where phrase is an expected substring of a lemma’s name.
 
