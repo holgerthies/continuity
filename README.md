@@ -29,10 +29,13 @@ This allows to inspect the definitions via `Print def_name`, lemmas, theorems et
 In the case where the name of a lemma is not unique, `Locate "lem_name"` lists all lemmas with that name and unique identifiers and `Print Assumptions lem_name` shows the axioms that the result assumes. 
 To list all results involving a concept Coq’s search function can be used via `Search _ (concept)` and `Search "phrase"` might be useful where phrase is an expected substring of a lemma’s name.
 
-### Theorem 1
-In the library this is the lemma `cont_comp`
+### Example
+Theorem 1 in the paper has the name `cont_comp`.
+In the library this is the lemma `cont_comp`.
+`Check cont_comp.` prints the statement of the Lemma:
 ```
-Lemma cont_comp (X Y Z: cs) (f: Y -> Z) (g: X -> Y):
-    f \is_continuous -> g \is_continuous -> (f \o_f g) \is_continuous.
+cont_comp
+     : forall (X Y Z : cs) (f : Y -> Z) (g : X -> Y), 
+        f \is_continuous -> g \is_continuous -> (f \o_f g) \is_continuous
 ```
-The lemma can be found in the file `continuity_spaces/cs.v` in the incone library.
+`Locate cont_comp.` shows that the lemma can be found in the file `continuity_spaces/cs.v` in the incone library.
