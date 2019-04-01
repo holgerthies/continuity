@@ -10,10 +10,12 @@ The following libraries have to be installed in this order:
 - [metric](https://github.com/FlorianSteinberg/metric/tree/v1.0)
 - [incone](https://github.com/FlorianSteinberg/incone/tree/v1.0)
 
-You can either download them from github (release version 1.0) or download a zip file containing all necessary files here.
-
+You can download each library from github using the above links (please use release version 1.0 for each library).
 To install each library simply go into the respective folder and run 
-`make && make install`
+`make && make install`.
+
+Alternatively you can download a zip-file containing all necessary files [here](incone-full.zip) and run the `install.sh` script in the top directory.
+The script simply goes into each of the subdirectories and runs `make && make install`.
 
 ## Checking the claims of the paper
 All of the claims about parts of the incone library can be checked by installing the library, opening a new 
