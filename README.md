@@ -1,11 +1,19 @@
 This webpage contains some information on how to check the contents of the formal proofs of statements in our paper.
 
 ## Installation instructions
+You should have coq (8.9.0) running with the [Coquelicot](http://coquelicot.saclay.inria.fr/) library (3.0) and [math-comp](https://math-comp.github.io/math-comp/) (1.7.0) installed. 
+
+The following libraries have to be installed in this order:
+- [mf](https://github.com/FlorianSteinberg/mf/tree/v1.0) 
+- [rlzrs](https://github.com/FlorianSteinberg/rlzrs/tree/v1.0)
+- [metric](https://github.com/FlorianSteinberg/metric/tree/v1.0)
+- [incone](https://github.com/FlorianSteinberg/incone/tree/v1.0)
+
 You can download each library from github using the above links (please use release version 1.0 for each library).
 To install each library simply go into the respective folder and run 
 `make && make install`.
 
-Alternatively if you are using [opam](https://coq.inria.fr/opam-using.html) to buil Coq
+Alternatively if you are using [opam](https://coq.inria.fr/opam-using.html) to build Coq
 you need to clone this github (don't forget the --recurse-submodules as it contains submodules) and then do a
 
 `opam install . --working-dir`
