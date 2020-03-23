@@ -1,10 +1,10 @@
 SUBDIRS := mf rlzrs metric incone
 
 all:
-		cd mf; make; make install;
-		cd rlzrs; make; make install;
-		cd metric; make; make install;
-		cd incone; make; make install
+		cd mf; make;
+		cd rlzrs; make COQEXTRAFLAGS="-R ../mf mf"; 
+		cd metric;make COQEXTRAFLAGS="-R ../mf mf -R ../rlzrs rlzrs";
+		cd incone;make COQEXTRAFLAGS="-R ../mf mf -R ../rlzrs rlzrs -R ../metric metric"
 
 clean:
 		cd mf; make clean;
