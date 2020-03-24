@@ -6,6 +6,7 @@ all:
 		cd metric;make COQEXTRAFLAGS="-R ../mf mf -R ../rlzrs rlzrs";
 		cd incone;make COQEXTRAFLAGS="-R ../mf mf -R ../rlzrs rlzrs -R ../metric metric"
 
+
 clean:
 		cd mf; make clean;
 		cd rlzrs; make clean;
