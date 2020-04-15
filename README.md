@@ -1,4 +1,4 @@
-This webpage contains some information on how to check the contents of the formal proofs of statements in our paper " Quantitative continuity and computable analysis in Coq" a preprint of which can be found [here](https://hal.inria.fr/hal-02088293).
+This webpage contains some information on how to check the contents of the formal proofs of statements in our paper "Computable analysis and notions of continuity in Coq" a preprint of which can be found [here](https://arxiv.org/abs/1904.13203).
 
 ## Installation instructions
 You should have coq (8.9.0) running with the [Coquelicot](http://coquelicot.saclay.inria.fr/) library (3.0) and from [math-comp](https://math-comp.github.io/math-comp/) (1.7.0) the packages ssreflect and algebra. 
